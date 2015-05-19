@@ -1,0 +1,103 @@
+.speaker_page_left{
+	width:145px;
+	float:left;
+	padding-right:20px;
+}
+
+.speaker_page_photo{
+	margin-bottom:2px;
+	width:100%;
+}
+
+.speaker_page_photo img{
+	width:100%;
+}
+
+.speaker_page_social{
+	float:right;
+	margin-left:5px;
+}
+
+#speaker_page_twitter_feed{
+	float:left;
+}
+
+#speaker_page_latest_tweet{
+	float: left;
+	font-size: 0.96em;
+	color: #27a2dd;
+}
+
+#speaker_page_twitter_feed h3{
+	margin:0;
+}
+#speaker_page_latest_tweet ul{
+	padding:0;
+	margin:0;
+}
+
+#speaker_page_latest_tweet li{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+
+#speaker_page_latest_tweet span{
+	color:#333;
+}
+
+#speaker_page_latest_tweet a{
+	color:#27a2dd;
+}
+
+.speaker_page_right{
+	float:right;
+	border-left:1px solid #CCC;
+	padding:0 17px;
+	width:475px;
+	min-height:183px;
+}
+
+.speaker_page_right h2{
+	font-size:1.8em;
+	margin-bottom:20px;
+}
+
+.speaker_page_positions{
+	width:100%;
+	float:left;
+	margin-bottom:15px;
+}
+
+.speaker_page_position{
+	width: 237px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.speaker_page_position p{
+	padding: 0px 5px;
+	float: left;
+	width: 135px;
+	margin: 0;
+	min-height: 94px;
+}
+
+.speaker_page_position p span{
+	font-weight:bold;
+}
+
+.speaker_page_logo{
+	border:1px solid #CCC;
+	float:left;
+}
+
+.speaker_page_logo img{
+	width:100%;
+	height:100%;
+}
+
+.speaker_page_text{
+	float:left;
+}
+
