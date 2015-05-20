@@ -2,7 +2,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic);
 
-/* line 17, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,41 +23,35 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
   vertical-align: top;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
@@ -89,7 +82,6 @@ img.alignleft {
   float: left;
   }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -199,19 +191,16 @@ strong, b{
   font-weight:bold;
 }
 
-/* line 24, ../sass/custom.scss */
 .img-block {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* line 30, ../sass/custom.scss */
 .container-full {
   z-index: 50;
 }
 
-/* line 34, ../sass/custom.scss */
 .navbar {
   -webkit-border-radius: 0;
   -ms-border-radius: 0;
@@ -220,7 +209,6 @@ strong, b{
   border-radius: 0;
 }
 
-/* line 39, ../sass/custom.scss */
 .affix {
   position: fixed;
   width: 100%;
@@ -502,23 +490,6 @@ strong, b{
   height: 31px;
   margin:10px 5px !important;
   padding:0 !important;
-}
-
-#menu-translated #tran-japanese a{
-  background: url("../images/site/japanese_button.jpg") no-repeat scroll;
-}
-
-#menu-translated #tran-trad-chinese a{
-  background: url("../images/site/trad_chinese_button.jpg") no-repeat scroll;
-}
-
-#menu-translated #tran-simp-chinese a{
-  background: url("../images/site/simp_chinese_button.jpg") no-repeat scroll;
-  width:114px;
-}
-
-#menu-translated #tran-korean a{
-  background: url("../images/site/korean_button.jpg") no-repeat scroll;
 }
 
 .row-offcanvas-right .sidebar-offcanvas-mobile{
