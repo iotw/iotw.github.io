@@ -106,6 +106,10 @@ img{
   display: none !important;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
+
 @media (min-width: 502px) and (max-width: 767px) { 
    .visible-xs-sm{ display: block !important; }
 }
